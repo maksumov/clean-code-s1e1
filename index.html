@@ -16,25 +16,25 @@
       <section id="add-task">
         <h3 class="title add-item">Add Item</h3>
         <div class="task-wrapper">
-          <input class="input task" id="new-task" type="text">
+          <input class="input task text new-task" id="new-task" type="text">
           <button class="button">Add</button>
         </div>
       </section>
       <h3 class="title">Todo</h3>
       <ul class="list" id="incomplete-tasks">
         <li class="item">
-          <input class="input" type="checkbox">
+          <input class="input checkbox" type="checkbox">
           <label class="label task">Pay Bills</label>
-          <input class="input" type="text">
+          <input class="input task text" type="text">
           <button class="button edit">Edit</button>
           <button class="button delete">
             <img class="remove-icon" src="./remove.svg" alt="delete task">
           </button>
         </li>
         <li class="item edit-mode">
-          <input class="input" type="checkbox">
+          <input class="input checkbox" type="checkbox">
           <label class="label task">Go Shopping</label>
-          <input class="input task" type="text" value="go shopping">
+          <input class="input task text" type="text" value="go shopping">
           <button class="button edit">Save</button>
           <button class="button delete">
             <img class="remove-icon" src="./remove.svg" alt="delete task">
@@ -42,11 +42,11 @@
         </li>
       </ul>
       <h3 class="title">Completed</h3>
-      <ul class="list" id="completed-tasks">
+      <ul class="list completed-tasks" id="completed-tasks">
         <li class="item">
-          <input class="input" type="checkbox" checked>
+          <input class="input checkbox" type="checkbox" checked>
           <label class="label task">See the Doctor</label>
-          <input class="input task" type="text">
+          <input class="input task text" type="text">
           <button class="button edit">Edit</button>
           <button class="button delete">
             <img class="remove-icon" src="./remove.svg" alt="delete task">
