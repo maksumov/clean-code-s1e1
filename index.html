@@ -6,18 +6,18 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body class="body">
-    <div class="header">
+    <header class="header">
       <img class="header-image" src="./eisenhower-matrix.jpg">
       <a class="header-link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="main">
-      <p id="add-task">
-        <label class="label" for="new-task">Add Item</label>
+    </header>
+    <main class="main">
+      <section id="add-task">
+        <h3 class="title add-item">Add Item</h3>
         <div class="task-wrapper">
           <input class="input task" id="new-task" type="text">
           <button class="button">Add</button>
         </div>
-      </p>
+      </section>
       <h3 class="title">Todo</h3>
       <ul class="list" id="incomplete-tasks">
         <li class="item">
@@ -51,7 +51,7 @@
           </button>
         </li>
       </ul>
-    </div>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>

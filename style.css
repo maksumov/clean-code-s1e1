@@ -101,7 +101,7 @@
 }
 
 /* New Task */
-.label[for="new-task"] {
+.title.add-item {
   display: block;
   margin: 0 0 20px;
 }
