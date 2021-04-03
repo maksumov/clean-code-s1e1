@@ -110,10 +110,6 @@
   width: 318px;
 }
 
-#add-task > .button:hover {
-  color: #0fc57c;
-}
-
 /* Task list */
 .item {
   overflow: hidden;
@@ -142,10 +138,6 @@
 
 .item >  .input[type="text"] {
   width: 226px;
-}
-
-.item > .button.delete:hover {
-  color: #cf2323;
 }
 
 .remove-icon {
